@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "name": "Spares Sales Order Booking",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      },
+      {
+        "id": 2,
+        "name":"Spares Sales Order Shipments",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      }
+      ,
+      {
+        "id": 3,
+        "name":"Spares Sales Order Delivery",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      }
+      ,
+      {
+        "id": 4,
+        "name":"Spares Sales Order Invoice",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      }
+      ,
+      {
+        "id": 5,
+        "name":"Finance COPA",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      }
+      ,
+      {
+        "id": 6,
+        "name":"Open Sales Orders",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      }
+      ,
+      {
+        "id": 7,
+        "name":"Open Service Cases",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      }
+      ,
+      {
+        "id": 8,
+        "name":"Contract Entitlement",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      },
+      {
+        "id": 9,
+        "name":"Contract Bookings",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      },
+      {
+        "id": 10,
+        "name":"Purchase Requisition",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      },
+      {
+        "id": 11,
+        "name":"Purchase Order Header",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      },
+      {
+        "id": 12,
+        "name":"Purchase order Line",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      },
+      {
+        "id": 13,
+        "name":"Purchase Order Goods Received",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      },
+      {
+        "id": 14,
+        "name":"Sales Quotations",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      },
+      {
+        "id": 15,
+        "name":"Sales Opportunities",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      },
+      {
+        "id": 16,
+        "name":"Labour Hour Details",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      },
+      {
+        "id": 17,
+        "name":"FSS Data",
+        "desc" : "All spares sales order booking information.You can derive number of sales order count,Rejected lines count,Escalation details and others...."
+      }
+ ]

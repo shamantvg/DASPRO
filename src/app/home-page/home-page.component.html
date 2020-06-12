@@ -1,0 +1,72 @@
+
+    <div class="onloadcls col-xs-12 col-sm-12 col-md-12 col-lg-12" *ngIf="homesearchbasic_tag !== null">
+        <div class="d-flex justify-content-center">
+            <h2 id="head-title-home"> Reports Metadata</h2>
+        </div>
+
+        <div class="d-flex justify-content-center">
+
+            <div class="ng-autocomplete">
+                <ng-autocomplete [data]="data" [searchKeyword]="keyword" (selected)='selectEvent($event)'
+                    (inputChanged)='onChangeSearch($event)' (inputFocused)='onFocused($event)' [itemTemplate]="itemTemplate"
+                    [notFoundTemplate]="notFoundTemplate" [placeHolder]="Holder" [minQueryLength]="minquerynum"
+                    [notFoundText]="notFoundText">
+                </ng-autocomplete>
+
+                <ng-template #itemTemplate let-item>
+                    <a [innerHTML]="item.name"></a>
+                </ng-template>
+
+                <ng-template #notFoundTemplate let-notFound>
+                    <div [innerHTML]="notFound"></div>
+                </ng-template>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <h6 id="search-sub-head">Suggestions :&nbsp;&nbsp; spares &nbsp;&nbsp;| finance &nbsp;&nbsp;| sales</h6>
+        </div>
+    </div>
+
+    <div class="onsearchcls col-xs-6 col-sm-6 col-md-6 col-lg-6" *ngIf="homesearchadvance_tag !== null">
+        <!-- <div class="d-flex justify-content-start">
+            <h2 id="head-title-home-onsearch"> Reports Metadata</h2>
+        </div> -->
+
+
+        <div class="col-sm-12 col-xl-12 col-lg-12">
+            <div class="d-flex justify-content-start">
+                <div class="ng-autocomplete-onsearch">
+                    <ng-autocomplete [data]="data" [minQueryLength]="minquerynum" [searchKeyword]="keyword" (selected)='selectEvent($event)'
+                        (inputChanged)='onChangeSearch($event)' (inputFocused)='onFocused($event)' [itemTemplate]="itemTemplate"
+                        [notFoundTemplate]="notFoundTemplate" [placeHolder]="Holder" [notFoundText]="notFoundText" [initialValue]="initialValue">
+                    </ng-autocomplete>
+
+                    <ng-template #itemTemplate let-item>
+                        <a [innerHTML]="item.name"></a>
+                    </ng-template>
+
+                    <ng-template #notFoundTemplate let-notFound>
+                        <div [innerHTML]="notFound"></div>
+                    </ng-template>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="col-sm-12 col-xl-12 col-lg-12">
+            <div class="d-flex justify-content-start">
+                <h6 id="search-sub-head-onsearch">Suggestions :&nbsp;&nbsp; spares &nbsp;&nbsp;| finance &nbsp;&nbsp;|
+                    sales</h6>
+            </div>
+            <div class="d-flex justify-content-start search-res-content">
+                <dl *ngFor="let val of Search_res">
+                    <dt class="search-res-head-link" (click)="gotoVerify(val.name)">{{val.name}}</dt>
+                    <dd class="search-res-subhead-link">{{val.desc}}</dd>
+                </dl>
+            </div>
+        </div>
+
+
+    </div>
+

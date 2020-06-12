@@ -1,0 +1,22 @@
+.page-not{
+    text-align:center;
+    background-color : dodgerblue;
+    color:#fff;
+    padding:50px;   
+}
+.page-not h1{
+    font-size:200px;
+}
+.page-not  h3{
+     font-size:40px;
+}
+
+#goBack{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.page-not-boot{
+    padding-left : 0px;
+}

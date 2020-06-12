@@ -1,0 +1,18 @@
+[
+    {
+       "email":"satya.tuluri@amat.com",
+       "report_name":"Spares Sales Order Booking",
+       "req_raised":"1",
+       "req_approved":"1",
+       "req_rised_date":"01-06-2020",
+       "req_approved_date":"03-06-2020"
+    },
+    {
+        "email":"shamantvijayakumar_gudigenavar@contractor.amat.com",
+        "report_name":"Finance COPA",
+        "req_raised":"1",
+        "req_approved":"0",
+        "req_rised_date":"03-06-2020",
+        "req_approved_date":"09-06-2020"
+     }
+ ]

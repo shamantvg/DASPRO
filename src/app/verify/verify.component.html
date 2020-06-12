@@ -1,0 +1,24 @@
+<div class="container top-div col-xs-12 col-sm-9  col-md-6 col-lg-6">
+    <h4 id="form-header">Please login to access reports</h4>
+    <form form (ngSubmit)="adminLogin(adminLoginForm)" #adminLoginForm="ngForm" class="col-xs-12 col-sm-8  col-md-8 col-lg-8"
+        id="login-form-id">
+        <div class="form-group">
+            <label for="adminId">Email Id:</label>
+            <input ngModel type="text" class="form-control" id="adminId" placeholder="Enter Email Id" name="adminId"
+                #adminId="ngModel" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" required>
+
+            <div [hidden]="adminId.valid || adminId.untouched">
+                <div class="alert alert-danger  err-msg-cls" *ngIf="adminId.errors && adminId.errors.required">
+                    Email Id is required
+                </div>
+                <div class="alert alert-danger  err-msg-cls" *ngIf="adminId.errors && adminId.errors.pattern">
+                    Email Id is invalid
+                </div>
+            </div>
+
+        </div>
+        <input class="btn btn-primary" type="submit" value="Submit" [disabled]="!adminLoginForm.form.valid">
+
+        <p class="alert alert-danger top-space" *ngIf="error !== null">{{error}}</p>
+    </form>
+</div>
